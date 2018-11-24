@@ -86,9 +86,9 @@ void draw() {
     if(isInit){
     if (movementSum > 0) {
       
-      println(movementSum+","+stadbyRatio*triggerThres); // Print the total amount of movement to the console
+      //println(movementSum+","+stadbyRatio*triggerThres); // Print the total amount of movement to the console
       if(movementSum>stadbyRatio*triggerThres){
-         playBing(); 
+         //playBing(); 
          saveCurrentFrame();;
       }
     }
