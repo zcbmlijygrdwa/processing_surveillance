@@ -16,9 +16,9 @@ int numPixels;
 int[] previousFrame;
 Capture video;
 
-float stadbyRatio = 1.1f;
+float stadbyRatio = 1.2f;
 
-float triggerThres = 2800000;
+float triggerThres = 3000000;
 
 int imageCounter = 0;
 
